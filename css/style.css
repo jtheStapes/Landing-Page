@@ -6,6 +6,11 @@ body {
     min-height: 100vh;
 }
 
+img {
+    width: 200px;
+    height: 200px;
+}
+
 .header, .section-one,
 .section-two, .section-three,
 .section-four {
@@ -23,13 +28,13 @@ body {
     padding: 16px 300px;
 }
 
+
 .section-one {
     background-color: rgb(25, 47, 66);
-    display: flex;
-    flex-direction: column;
+    display: flex;  
     flex: 1;
     padding: 100px 300px;
-    gap: 12px;
+    gap: 16px;
 }
 
 
@@ -40,11 +45,15 @@ body {
 
 .website-name {
     font-size: 32px;
-    flex-wrap: wrap;
 }
 
 .links, .website-description {
     color: rgb(144, 149, 153);
+}
+
+.website-description {
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 button {
