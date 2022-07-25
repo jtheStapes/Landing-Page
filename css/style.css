@@ -18,7 +18,7 @@ img {
 
 .img-dogs {
     border-radius: 25px;
-    border: 2px solid blue;
+    border: 2px solid #3882F6;
     width: 125px;
     height: 125px;
 }
@@ -32,7 +32,11 @@ img {
 
 .footer {
     display: flex;
-    background-color:#1F2937;;
+    background-color:#1F2937;
+    color: #E5E7EB;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -60,6 +64,7 @@ img {
 .section-two {
     flex-direction: column;
     text-align: center;
+    justify-content: space-evenly;
 }
 
 .section-three {
@@ -69,7 +74,14 @@ img {
 .image-container {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    align-items: center;
+    gap: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.image-description {
+    flex-wrap: wrap;
 }
 
 .image-header, .website-name {
@@ -81,6 +93,7 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+
 }
 
 .website-info {
@@ -111,7 +124,8 @@ button {
 }
 
 .h-button {
-    color: black;
+    color: #E5E7EB;
+    background-color: #3882F6;
 }
 
 a {
