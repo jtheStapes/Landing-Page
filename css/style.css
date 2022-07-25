@@ -2,7 +2,11 @@ body {
     font-family: 'Courier New', Courier, monospace;
     display:flex;
     flex-direction: column;
-    margin: 0;
+    background-color: white; /* Change to black at the end */
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 775px;
+    margin-right: 775px;
     min-height: 100vh;
     flex: 1;
 }
@@ -10,6 +14,12 @@ body {
 img {
     width: 300px;
     height: 200px;
+} 
+
+.img-two, .img-three,
+.img-four, .img-five {
+    width: 150px;
+    height: 150px;
 }
 
 .section-one,
@@ -21,31 +31,49 @@ img {
 
 .footer {
     display: flex;
+    background-color:#1F2937;;
 }
 
 .header {
     display: flex;
     flex: 0.5;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 .section-one {
-    background-color: rgb(25, 47, 66);
+    background-color: #1F2937;
     flex-direction: column;
-    padding: 16px 280px;
 }
 
 .subsection-one {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .section-two {
     flex-direction: column;
+    text-align: center;
 }
 
 .image-container {
     display: flex;
+    justify-content: center;
+    gap: 24px;
+    /*margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;*/
+}
+
+.image-header, .website-name {
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.image-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .website-info {
@@ -61,7 +89,7 @@ img {
 }
 
 .website-name {
-    font-size: 32px;
+    font-size: 48px;
 }
 
 .links, .website-description {
@@ -81,7 +109,7 @@ button {
 }
 
 a {
-    color: rgb(175, 172, 172);
+    color: #E5E7EB;
     text-decoration: none;
   }
 
@@ -94,5 +122,5 @@ ul {
   }
 
   li {
-    font-size: 11px;
+    font-size: 18px;
   }
