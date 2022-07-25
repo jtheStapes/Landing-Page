@@ -8,7 +8,7 @@ body {
     margin-left: 775px;
     margin-right: 775px;
     min-height: 100vh;
-    flex: 1;
+    
 }
 
 img {
@@ -16,10 +16,11 @@ img {
     height: 200px;
 } 
 
-.img-two, .img-three,
-.img-four, .img-five {
-    width: 150px;
-    height: 150px;
+.img-dogs {
+    border-radius: 25px;
+    border: 2px solid blue;
+    width: 125px;
+    height: 125px;
 }
 
 .section-one,
@@ -59,6 +60,10 @@ img {
 .section-two {
     flex-direction: column;
     text-align: center;
+}
+
+.section-three {
+    background-color: #E5E7EB;
 }
 
 .image-container {
