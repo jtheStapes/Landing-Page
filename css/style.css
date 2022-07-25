@@ -8,7 +8,13 @@ body {
     margin-left: 775px;
     margin-right: 775px;
     min-height: 100vh;
-    
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
 }
 
 img {
