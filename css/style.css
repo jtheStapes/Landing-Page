@@ -40,8 +40,19 @@ img {
     display: flex;
 }
 
+.section-two {
+    flex-direction: column;
+}
+
+.image-container {
+    display: flex;
+}
+
 .website-info {
-    margin-right: 15px;
+    margin-right: 20px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo, .website-name {
@@ -55,10 +66,6 @@ img {
 
 .links, .website-description {
     color: rgb(144, 149, 153);
-}
-
-.website-description {
-    margin-bottom: 10px;
 }
 
 button {
