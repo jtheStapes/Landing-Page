@@ -87,6 +87,15 @@ img {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+.text {
+    flex: 2;
+    padding: 25px;
+    gap: 8px;
 }
 
 .text-one {
@@ -99,10 +108,11 @@ img {
     color: #E5E7EB;
 }
 
-.sign-up {
+.sign-up-button {
     background-color: #3882F6;
     border-radius: 25px;
     border: 1px solid white;
+    margin-right: 50px;
 }
 
 .quote {
