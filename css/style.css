@@ -46,12 +46,14 @@ img {
 .section-one {
     background-color: #1F2937;
     flex-direction: column;
+    padding: 16px;
 }
 
 .subsection-one {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
+    gap: 24px;
 }
 
 .section-two {
@@ -63,9 +65,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    /*margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 100px;*/
 }
 
 .image-header, .website-name {
@@ -80,7 +79,6 @@ img {
 }
 
 .website-info {
-    margin-right: 20px;
     gap: 8px;
     display: flex;
     flex-direction: column;
@@ -96,13 +94,13 @@ img {
 }
 
 .links, .website-description {
-    color: rgb(144, 149, 153);
+    color: #E5E7EB;
 }
 
 button {
     border: none;
     border-radius: 8px;
-    color: white;
+    color: #E5E7EB;
     font-weight: bold;
     padding: 8px 16px;
 }
