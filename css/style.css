@@ -50,6 +50,7 @@ img {
     flex: 0.5;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 100px;
     justify-content: space-between;
 }
 
@@ -57,13 +58,14 @@ img {
 .section-one {
     background-color: #1F2937;
     flex-direction: column;
-    padding: 16px;
+    padding: 32px;
 }
 
 .subsection-one {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 75px;
     gap: 24px;
 }
 
@@ -71,6 +73,8 @@ img {
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
+    padding: 50px;
+    gap: 16px;
 }
 
 .section-three {
@@ -79,6 +83,7 @@ img {
     align-items: center;
     flex-direction: column;
     font-size: 36px;
+    padding: 100px;
 }
 
 .section-four {
