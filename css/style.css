@@ -135,10 +135,9 @@ img {
 }
 
 .quote-author {
-    align-self: flex-end;
-    padding-right: 150px;
     font-size: 24px;
     font-weight: bold;
+    margin-left: 300px;
 }
 
 .image-container {
