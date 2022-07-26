@@ -29,6 +29,12 @@ img {
     height: 125px;
 }
 
+.img-logo {
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+}
+
 .section-one,
 .section-two, .section-three,
 .section-four {
