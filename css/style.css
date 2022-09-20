@@ -5,7 +5,6 @@ body {
     background-color: black; 
     margin-top: 0;
     margin-bottom: 0;
-    
     min-height: 100vh;
 }
 
@@ -19,17 +18,18 @@ body {
 img {
     width: 300px;
     height: 200px;
+    border-radius: 25px;
 } 
 
 .img-dogs {
-    border-radius: 25px;
+    
     border: 2px solid #3882F6;
     width: 125px;
     height: 125px;
 }
 
 .img-logo {
-    border-radius: 25px;
+    
     height: 100px;
     width: 100px;
 }
