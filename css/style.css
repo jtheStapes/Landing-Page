@@ -3,9 +3,9 @@ body {
     display:flex;
     flex-direction: column;
     background-color: black; 
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
     min-height: 100vh;
+    max-width: 65vw;
 }
 
 .body {
